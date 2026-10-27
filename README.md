@@ -1,17 +1,17 @@
 # docchat
 
-Чат із документами з джерелами (RAG). Завантажуєш PDF або markdown, ставиш питання, відповідь приходить потоком і супроводжується цитатами з фрагментів документів.
+Chat with your documents, with source citations (RAG). Upload a PDF or markdown file, ask a question, and get a streamed answer together with citations from the document fragments it was based on.
 
-## Статус
+## Status
 
-Етап 0: підготовка репозиторію.
+Stage 1 in progress: FastAPI backend skeleton.
 
-## Структура
+## Structure
 
 - `backend/` — FastAPI, pgvector, RAG
 - `frontend/` — Vite + React + TypeScript
-- `docker-compose.yml` — PostgreSQL з pgvector
+- `docker-compose.yml` — PostgreSQL with pgvector
 
-## Запуск
+## Run
 
-Буде описано після етапу 5.
+To be documented after stage 5.
